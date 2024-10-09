@@ -7,4 +7,4 @@ def home():
     return render_template('/login/index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5173)
+    app.run(debug=True, port=5000)
